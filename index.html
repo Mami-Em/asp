@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output/output.css">
+    <title>Home</title>
+</head>
+<body class="">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('#miteraka').onclick = () => {
+                var lohany = document.getElementById('teraka');
+                lohany.classList.remove('hidden');
+            };
+        });
+    </script>
+    <!--                           -->
+<div class="mx-auto max-w-xl font-light sm:max-w-3xl lg:max-w-6xl xl:max-w-screen-2xl">
+    <!-- mmm -->
+    <div class="lg:flex justify-between h-auto px-6 py-4 xl:px-20 xl:py-6 sticky top-0 bg-white z-40 hidden border-b shadow-sm">
+        <div class="">
+            <!-- logo -->
+            <img src="./img/IMG_6642.jpg" alt="Logo img" class="object-cover w-24">
+            <!-- endlogo -->
+        </div>
+        <div class="flex items-center divide-x w-3/5 font-serif text-lg xl:text-xl text-gray-700">
+            <ul class="grid grid-cols-6 w-full">
+                <li class="hover:text-gray-500 items-center flex justify-center">
+                    <a href="./about_us.html"> About us</a>
+                </li>
+                <li class="hover:text-gray-500 items-center flex justify-center">Projects</li>
+                <li class="hover:text-gray-500 items-center flex justify-center">Species</li>
+                <li class="hover:text-gray-500 items-center flex justify-center">Sites</li>
+                <li class="hover:text-gray-500 items-center flex justify-center">Team</li>
+                <li class="hover:text-gray-500 items-center flex justify-center">Contact</li>
+            </ul>
+            <div class="pl-5">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </div>
+        </div>
+        
+    </div>
+    <!-- mnm -->
+    <div id="lohany"  style="background-image: url(./img/reforestation.jpeg); height: 80vh;" class="bg-no-repeat mb-4 xl:mx-20">
+            <!-- menu -->
+        <div class=" pipi flex flex-row justify-between items-center px-5 py-5 sm:px-7 text-gray-700 border-b-4 border-gray-800 bg-white lg:invisible">
+            <div>
+                <!-- logo -->
+                <img src="./img/IMG_6642.jpg" alt="Logo img" class="object-cover w-24">
+                <!-- endlogo -->
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="flex flex-row lg:justify-center gap-x-4">
+                <!-- burg&sch -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <!-- menu -->
+                <svg xmlns="http://www.w3.org/2000/svg" id="miteraka" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                </svg>
+                <!-- end burg&src -->
+            </div>
+            <!--  -->
+            
+            <!--  -->
+        </div>
+        <div id="teraka" class="hidden h-full bg-white px-5 py-5">
+            <ul class="flex flex-col items-center gap-y-5">
+                <li>
+                    <a href="./about_us.html"> About us</a>
+                </li>
+                <li>
+                    Projects
+                </li>
+                <li>
+                    Species
+                </li>
+                <li>
+                    Sites
+                </li>
+                <li>
+                    Team
+                </li>
+                <li>
+                    Contact us
+                </li>
+            </ul>
+        </div>
+        
+   
+    </div>
+     <!-- endmenu -->
+     <div class="flex justify-start items-end text-green-50 px-5 py-4 sm:px-7 xl:px-20">
+        <h1 class="font-serif font-extralight tracking-wide text-2xl lg:text-4xl px-4 py-4 border-sm border-l-8 border-gray-600 text-gray-700">
+            The Aspinall Foundation Madagascar.
+            <!--  -->
+        </h1>
+    </div>
+<!--  -->
+    <!-- BREAK -->
+    <div class="mx-6 py-8 xl:mx-20 border-b flex flex-col gap-y-6 sm:flex-row sm:gap-x-8 lg:gap-x-9 xl:gap-x-10 sm:mx-7 xl:py-10">
+        <div class="h-full sm:w-96 lg:w-1/2 lg:p-8 xl:w-1/2 xl:px-10 text-center bg-gray-50 px-8 py-6 divide-y border-sm text-gray-600 shadow-sm hover:shadow-lg transform transition-150 duration-500">
+            <p class="font-serif text-2xl lg:text-3xl xl:text-4xl text-center pb-4">
+                <a href="./about_us.html"> About us</a>
+            </p>
+            <div class="flex flex-col items-center justify-between ">
+                <p class="py-4 text-sm lg:text-base xl:text-lg ">
+                    Our mission is to work with local partners here in Madagascar to conserve endangered species and their habitats.
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+            </div>
+            
+        </div>
+        <div class="sm:w-11/12 sm:pt-10 xl:pt-16 text-gray-700">
+            <p class="font-serif text-2xl pb-4 sm:pb-6 lg:text-3xl " style="text-decoration-color: #4b5563; ">
+                Tony King, Conservation and Reintroduction Coordinator
+            </p>
+            <p class="text-md pb-10 lg:text-lg xl:text-xl font-light leading-10">
+                We have been remarkably successful in averting the extention crisis that was facing the Greater Bamboo Lemur less than ten years ago. Our challenge now is to continue ur support of local communities protecting bamboo Lemurs to ensurethis vival continues, and to actto save even more of one hundred or so other lemur species unique to Madagascar.
+            </p>
+        </div>
+    </div>
+    
+    <!-- BREAK -->
+        <div class="px-6 py-8 xl:py-10 flex flex-col gap-y-2 items-center lg:font-medium">
+            <p class="font-serif text-3xl lg:text-4xl xl:text-5xl text-gray-800">
+                Our Projects 
+            </p>
+        </div>
+        <div class="grid px-6 gap-y-8 sm:px-7 xl:px-20 py-4 text-gray-700 divide-y sm:grid-cols-2 sm:gap-x-6 sm:gap-y-6 xl:gap-y-10 xl:gap-x-10 sm:divide-y-0 lg:grid-cols-3 ">
+            <div class="">
+                <div class="relative overflow-hidden shadow-xl rounded-sm">
+                    <img src="./img/greatbamboo.jpeg" alt="" class="object-cover rounded-sm transform transition-150 duration-500 hover:scale-105 sm:h-64 xl:h-96 w-full">
+                </div>
+                
+                    
+                        <p class="font-medium text-xl pt-4 font-serif xl:pt-6 xl:pb-2 xl:text-3xl">
+                            Primary project
+                        </p>
+                        <p class="pb-4 xl:text-lg font-normal">
+                            "Saving Greater Bamboo Lemur" is our primary project.
+                        </p>
+                    
+                    
+                    <a href="" class="border-t-2 border-gray-600 xl:p-4 p-2 flex items-center gap-x-2 transform transition delay-50 duration-500 group group-hover:border-gray-900">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 p-2  bg-gray-600 rounded-sm text-gray-50 group-hover:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                        <p class="text-gray-600 group-hover:text-gray-900">
+                            Learn more about our primary project
+                        </p>
+                        
+                    </a>
+                
+                
+            </div>
+            <div class="">
+                <div class="relative overflow-hidden shadow-xl rounded-sm">
+                    <img src="./img/conserv.jpeg" alt="" class="object-cover rounded-sm transform transition-150 duration-500 hover:scale-105 sm:h-64 xl:h-96 w-full"> 
+                </div>
+                <p class="font-medium text-xl pt-4 font-serif xl:pt-6 xl:pb-2 xl:text-3xl">
+                    Conservation Project
+                </p>
+                <p class="pb-4 xl:text-lg font-normal">
+                    A conservation project in collaboration with IUCN save our species
+                </p>
+                <a href="" class="border-t-2 border-gray-600 xl:p-4 p-2 flex items-center gap-x-2 transform transition delay-50 duration-500 group group-hover:border-gray-900">
+                        
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 p-2  bg-gray-600 rounded-sm text-gray-50 group-hover:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                    <p class="text-gray-600 group-hover:text-gray-900">
+                        Learn more about our primary project
+                    </p>
+                    
+                </a>
+            </div>
+            <div class="relative">
+                <div class="relative overflow-hidden shadow-xl rounded-sm">
+                    <img src="./img/education.jpeg" alt="" class="object-cover rounded-sm transform transition-150 duration-500 hover:scale-105 sm:h-64 xl:h-96 w-full"> 
+                </div>
+                
+                    
+                        <p class="font-medium text-xl pt-4 font-serif xl:pt-6 xl:pb-2 xl:text-3xl">
+                            Education Project
+                        </p>
+                        <p class="pb-4 xl:text-lg font-normal">
+                            We educate people of all ages for them to become conservation warrior
+                        </p>
+                    
+                        <a href="" class="border-t-2 border-gray-600 xl:p-4 p-2 flex items-center gap-x-2 transform transition delay-50 duration-500 group group-hover:border-gray-900">
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 p-2  bg-gray-600 rounded-sm text-gray-50 group-hover:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                            </svg>
+                            <p class="text-gray-600 group-hover:text-gray-900">
+                                Learn more about our primary project
+                            </p>
+                            
+                        </a>
+                
+                
+                
+            </div>
+            <div class="xl:hidden">
+                <div class="relative overflow-hidden shadow-xl rounded-sm">
+                    <img src="./img/reforestation.jpeg" alt="" class="object-cover rounded-sm transform transition-150 duration-500 hover:scale-105 sm:h-64 xl:h-96 w-full"> 
+                </div>
+                <p class="font-medium text-xl pt-4 font-serif xl:pt-6 xl:pb-2 xl:text-3xl">
+                    Reforestation project
+                </p>
+                <p class="pb-4 xl:text-lg font-normal">
+                    We are doing more than planting trees, we care about what the nature needs and what people need.
+                </p>
+                <a href="" class="border-t-2 border-gray-600 xl:p-4 p-2 flex items-center gap-x-2 transform transition delay-50 duration-500 group group-hover:border-gray-900">
+                        
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 p-2 bg-gray-600 rounded-sm text-gray-50 group-hover:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                    <p class="text-gray-600 group-hover:text-gray-900">
+                        Learn more about our primary project
+                    </p>
+                    
+                </a>
+            </div>
+        </div>
+        <!-- more -->
+        <div class="px-6 group flex justify-center items-center gap-x-4 pb-6 m-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 xl:w-12 bg-gray-600 rounded-full p-2 transition text-gray-50 group-hover:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+            <p class="font-semibold xl:text-lg">
+                Find more about species
+            </p>
+        </div>
+        <!--  -->
+    <div class="h-full text-green-50 xl:mx-20 px-6 py-6 sm:px-7 lg:grid lg:grid-cols-6" style="background-color: #18181b;">
+        <div class="py-2 lg:col-start-2 lg:col-span-4">
+            <p class="font-medium text-xs pb-5 xl:pb-10 lg:text-center">
+                HISTORY STILL IMPACTS TODAY
+            </p>
+            <h1 class="font-serif text-3xl xl:text-6xl font-light pb-5 xl:pb-10 lg:text-center">
+                What is Madagascar known for?
+            </h1>
+            <p class="text-base leading-relaxed tracking-wider pb-8 xl:pb-16 skew xl:text-xl xl:leading-9">
+                Madagascar is known for the uniqueness of its biodiversity. However, the environment is experiencing unprecedented threats and pressures due to the already critical situation, and exacerbated by the pandemic.
+                For this World Biodiversity Day, let’s keep in mind that seeing such a beautiful wildlife and such a forest is normal, and should be everywhere in the country, not burnt vegetation devoid of animals. Please give us hand to preserve these beauties for as long as possible!            </p>
+            <div class="flex lg:justify-center items-center w-4/5 gap-x-3 group lg:w-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-1/12 sm:w-1/12 lg:w-10 w-1/6 bg-gray-600 rounded-full p-2 transition group-hover:bg-gray-50 group-hover:text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+                <p class="font-semibold xl:text-lg"> 
+                    Read more about this article
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="px-6 py-6 xl:px-20 xl:py-16">
+        <p class="font-serif text-3xl xl:text-5xl text-gray-800 py-4 text-center">
+            Our Species 
+        </p>
+    </div>
+    <div class="py-4 px-6 sm:px-7 xl:px-20 xl:py-0 lg:grid lg:grid-cols-2 lg:gap-x-8">
+        <div class="flex flex-col gap-y-4">
+            <div class="relative overflow-hidden shadow-xl rounded-sm xl:h-4/6">
+                <img src="./img/bg.jpeg" alt="" class="object-cover transform transition-150 duration-500 hover:scale-105">
+            </div>
+            <div class="pb-6 xl:pb-0">
+                <style>
+                    .tsipio {
+                        border-bottom-width: 0;
+                        background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+                        background-size: 0 1.5px;
+                        background-position: 0 100%;
+                        background-repeat: no-repeat;
+                        transition: background-size .2s;
+                    }
+                    .tsipio-fotsy {
+                        background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff)
+                    }
+                    .tsipio-mainty{
+                        background-image: linear-gradient(transparent, transparent), linear-gradient(#18181b, #18181b)
+                    }
+                
+                    .tsipio:hover {
+                        background-size: 100% 1.5px;
+                        background-position: 0 100%
+                    }
+                </style>
+
+                <p class="text-3xl xl:text-4xl xl:py-5 font-serif py-2"><span class="tsipio tsipio-mainty">Primates</span> </p>
+                <p class="text-sm xl:text-lg xl:font-normal">
+                    Our work cover 10 diurnal species and probably 7 nocturnal species. 13 of the known species are threatened species.
+                </p>    
+            </div>
+            
+        </div> 
+        <div class="flex flex-col divide-y py-6 xl:py-0 lg:py-0">
+            <div class="grid grid-cols-3 gap-x-4 py-6 lg:py-0 lg:pb-4 xl:pb-8 sm:flex sm:justify-between xl:grid-cols-4 xl:grid">
+                <!-- content -->
+                <div class="text-base font-serif col-span-2 xl:col-span-3">
+                    <span class="tsipio tsipio-mainty">
+                        Rere: one of the most Evolutionarily Disctinct and Globally Endangered.
+                    </span>
+                    
+                </div>
+                <div class="relative overflow-hidden shadow-xl rounded-sm sm:w-40 lg:w-40 xl:w-full xl:h-24">
+                    <img src="./img/big_headed.jpeg" alt="" class="rounded-sm object-cover transform delay-200 duration-500 hover:scale-110 h-32 w-full bg-right lg:h-24 xl:h-full">
+                </div>
+                
+            </div>
+                <!--  -->
+            <div class="grid grid-cols-3 gap-x-4 py-6 xl:py-8 lg:py-4 sm:flex sm:justify-between xl:grid-cols-4 xl:grid"> 
+                <!-- content -->
+                <div class="text-base font-serif col-span-2 xl:col-span-3">
+                    <span class="tsipio tsipio-mainty">
+                        Aves: The Critically Endangered Madagascar Fish Eagle.
+                    </span>
+                    
+                </div>
+                <div class="relative overflow-hidden shadow-xl rounded-sm sm:w-40 lg:w-32 xl:w-full xl:h-24">
+                    <img src="./img/fish_eagle.jpeg" alt="" class="object-cover transform delay-200 duration-500 hover:scale-110 w-full h-32 bg-right lg:h-24">
+                </div>
+            </div>
+                <!--  -->
+            <div class="grid grid-cols-3 gap-x-4 py-6 xl:py-8 lg:py-4 sm:flex sm:justify-between xl:grid-cols-4 xl:grid "> 
+                <!-- content -->
+                <p class="text-base font-serif col-span-2 xl:col-span-3">
+                    <span class="tsipio tsipio-mainty">
+                        Cichilds: known as Damba mipentina, or Paretroplus maculatus.
+                    </span>
+                    
+                </p>
+                <div class="relative overflow-hidden shadow-xl rounded-sm sm:w-40 lg:w-36 xl:h-24">
+                    <img src="./img/IMG_6779.JPG" alt="image of Damba" class="rounded-sm object-cover transform delay-200 duration-500 hover:scale-110 h-32 w-full lg:h-24">
+                </div>
+            </div>
+                <!--  -->
+            <div class="grid grid-cols-3 gap-x-4 py-6 xl:py-8 lg:py-4 sm:flex sm:justify-between xl:grid-cols-4 xl:grid "> 
+                <!-- content -->
+                <p class="text-base font-serif col-span-2 xl:col-span-3">
+                    <span class="tsipio tsipio-mainty">
+                        Other Mammals: The Madagascar flying fox,...
+                    </span>
+                    
+                </p>
+                <div class="relative overflow-hidden shadow-xl rounded-sm sm:w-40 lg:w-28 xl:h-24 xl:w-full">
+                    <img src="./img/flying_fox.jpeg" alt="" class="rounded-sm object-cover transform delay-200 duration-500 hover:scale-110 w-full h-32 lg:h-24">
+                </div>
+            </div>
+                <!--  -->
+        </div>
+    </div>
+    <!--  -->
+    <div class="px-6 group flex justify-center items-center gap-x-4 pb-6 xl:pt-10 xl:pb-20">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 xl:w-12 bg-gray-600 rounded-full p-2 transition text-gray-50 group-hover:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+        <p class="font-semibold xl:text-lg">
+            Find more about species
+        </p>
+    </div>
+        <!--  -->
+    <div class="bg-gray-50 my-8 mx-6 px-6 py-6 divide-y border-sm text-gray-600 shadow-sm sm:mx-7 xl:mx-20 xl:px-10 xl:py-10">
+        <p class="font-serif text-3xl text-center pb-4 xl:text-5xl xl:pb-10">
+            Our sites
+        </p>
+        <div class="pb-4 hover:bg-gray-200 px-4 xl:p-6 transition-150 duration-500 sm:pb-0 sm:flex sm:items-center sm:justify-between">
+            <p class="py-4 text-sm xl:py-0 xl:text-xl">
+                Maevantanana Ambato-Boeny Key Biodiversity Area
+            </p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+        </div>  
+        <div class="pb-4 hover:bg-gray-200 px-4 xl:p-6 transition-150 duration-500 sm:pb-0 sm:flex sm:items-center sm:justify-between">
+            <p class="py-4 text-sm xl:py-0 xl:text-xl">
+                Forest Corridor of Ankeniheny Zahamena
+            </p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+        </div> 
+        <div class="pb-4 hover:bg-gray-200 px-4 xl:p-6 transition-150 duration-500 sm:pb-0 sm:flex sm:items-center sm:justify-between">
+            <p class="py-4 text-sm xl:py-0 xl:text-xl">
+                Andriantantely Lowland Forest
+            </p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+        </div> 
+        <div class="pb-4 hover:bg-gray-200 px-4 xl:p-6 transition-150 duration-500 sm:pb-0 sm:flex sm:items-center sm:justify-between">
+            <p class="py-4 text-sm xl:py-0 xl:text-xl">
+                Vohibe (Forest part of Nosivolo New Protected Area)
+            </p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+        </div>       
+    </div>
+    <!--  -->
+    <!-- TEAM -->
+    <div class="px-6 py-6 xl:py-20">
+        <p class="font-serif text-3xl text-gray-800 py-4 text-center xl:text-5xl">
+            Our Team 
+        </p>
+    </div>
+    <div class="flex flex-col gap-y-6 px-6 py-6 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:px-7 lg:grid-cols-3 xl:px-20 xl:gap-10">
+        
+        <div class="bg-green-100 h-96 rounded-sm shadow-sm relative bg-gradient-to-b from-gray-50 to-gray-200 object-cover"  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0,0,0,1) 90%), url(./img/Maholy.jpeg); background-position: bottom; ">
+            <div class="absolute bottom-0 m-6  text-gray-100">
+                <p class=" text-2xl font-serif pb-2 tsipio tsipio-fotsy">
+                    Maholy Ravaloharimanitra
+                </p>
+                <p class="text-sm">
+                    National Representative of the Aspinall Foundation Madagascar.
+                </p>
+            </div>
+            
+        </div>
+        <div class="bg-green-100 h-96 rounded-sm shadow-sm relative bg-gradient-to-b from-gray-50 to-gray-200 object-cover" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0,0,0,1) 90%), url(./img/Lucien.jpeg); background-size: cover; background-position: right;">
+            <div class="absolute bottom-0 m-6  text-gray-100">
+                <p class=" text-2xl font-serif pb-2">
+                    Lucien Randriarimanana
+                </p>
+                <p class="text-sm">
+                    Primatologist, responsible of the activities within the Alaotra Mangoro Region.
+                </p>
+            </div>
+        </div>
+        
+        <div class="bg-green-100 h-96 rounded-sm shadow-sm relative bg-gradient-to-b from-gray-50 to-gray-200 object-cover" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0,0,0,1) 90%), url(./img/Haingo.jpeg); background-size: cover; ">
+            <div class="absolute bottom-0 m-6  text-gray-100">
+                <p class=" text-2xl font-serif pb-2">
+                    Hery Nirina Randriahaingo 
+                </p>
+                <p class="text-sm">
+                    Primatologist, responsible of the activities within the Antsinanana Region.
+                </p>
+            </div>
+        </div>
+
+        <div class="xl:hidden bg-green-100 h-96 rounded-sm shadow-sm relative bg-gradient-to-b from-gray-50 to-gray-200 object-cover" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0,0,0,1) 90%), url(./img/Mija.jpeg); background-size: cover; background-position: 25% 25%;">
+            <div class="absolute bottom-0 m-6  text-gray-100">
+                <p class=" text-2xl font-serif pb-2">
+                    Hasimija Mihaminekena
+                </p>
+                <p class="text-sm">
+                    Primatologist, responsible of the Greater Bamboo Lemur Project in degraded forest.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!--  -->
+    <div class="px-6 group flex justify-center items-center gap-x-4 py-6 mb-6 xl:py-20">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 xl:w-12 bg-gray-600 rounded-full p-2 transition text-gray-50 group-hover:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+        <p class="font-semibold xl:text-xl">
+            Find more about our team
+        </p>
+    </div>
+        <!--  -->
+    <div class="bg-gray-100 p-6 font-thin xl:px-20 xl:py-12">
+        <div class="">
+            <p class="font-serif text-lg xl:text-3xl xl:font-normal xl:pb-4">
+                Location
+            </p>
+            <p class="text-gray-500 text-sm leading-tight xl:text-lg xl:font-light">
+                S III 347 Ambihivy Soavina <br>
+                Antananarivo <br>
+                102, <br>
+                Madagascar
+            </p>
+        </div>
+    </div>
+    <!--  -->
+    <div class="grid grid-cols-1 text-gray-50 sm:grid-cols-2 xl:px-20" style="background-color: #18181b;">
+        <div class="py-4 px-6 grid gap-4 border-b border-gray-600 sm:border-0 sm:border-r xl:p-0 xl:py-8 ">
+            <div class="flex items-center gap-x-3">
+                <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                <p class="text-sm xl:text-lg">Follow us on Facebook</p>
+            </div>
+            <dic class="flex items-center gap-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                </svg>
+                <div class="text-sm xl:text-lg">+261 34 03 808 25</div>
+            </dic>
+            <dic class="flex items-center gap-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                </svg>
+                <div class="text-sm xl:text-lg">mravaloharimanitra@aspinall-tana.org</div>
+            </dic>
+           
+        </div>
+        <div class="py-4 px-6 text-sm text-gray-400 xl:p-8 xl:text-lg">
+            <ul class="grid grid-cols-1 gap-y-4">
+                <li>Jobs</li>
+                <li>Copyright</li>
+                <li>Website</li>
+            </ul>
+        </div>
+        <div class="px-6 py-4 text-center text-gray-400 text-sm sm:col-span-2 xl:border-t border-gray-600">
+            &copy; Aspinall Foundation Madagascar
+        </div>
+    </div>
+</div>
+    <!--                       -->
+</body>
+</html>
